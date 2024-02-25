@@ -1,4 +1,11 @@
 {
+  "scripts": {
+    "edgio:dev": "edgio dev",
+    "edgio:build": "edgio build",
+    "edgio:deploy": "edgio deploy",
+    "start": "node app.js",
+    "watch": "nodemon --ext js,ejs --ignore public"
+  },
   "dependencies": {
     "connect-livereload": "^0.6.1",
     "ejs": "^3.1.9",
@@ -7,8 +14,10 @@
     "mongoose": "^8.0.3",
     "nodemon": "^3.0.2"
   },
-  "scripts": {
-    "start": "node app.js",
-    "watch": "nodemon --ext js,ejs --ignore public"
+  "devDependencies": {
+    "@edgio/cli": "^7.8.1",
+    "@edgio/core": "^7.8.1",
+    "@edgio/express": "^7.5.0",
+    "@edgio/prefetch": "^7.8.1"
   }
 }
