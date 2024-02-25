@@ -43,7 +43,7 @@ mongoose.connect("mongodb+srv://Ahmad_RAQ:1w3r5y7i8@cluster0.wrxv6um.mongodb.net
 //index
 
 app.get('/', (req, res) => {
-  res.render("showfuv") 
+  res.render("index") 
 })
 
 //mnuat
