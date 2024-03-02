@@ -147,8 +147,3 @@ app.get("/sfuv", (req, res) => {
 })
 
 
-//support
-
-app.get("/support", (req, res) => {
-  res.render("support")
-})
